@@ -1,0 +1,15 @@
+doctype html
+html(lang="en" ng-app="app")
+    head
+        title testing
+        meta(charset="utf-8")
+        link(type="text/css" rel="stylesheet" href="less/site.css")
+    body
+        h1 Our Site
+        p This is a paragraph
+        div(ng-controller="controller")
+            button#thebutton(ng-click="buttonClick()") Click Here
+
+        script(type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js")
+        script(type="text/javascript" src="js/js.js")
+        
